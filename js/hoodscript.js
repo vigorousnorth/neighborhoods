@@ -2,17 +2,15 @@
 ----- Config Vars: Change these to configure for your city or cities-------------
 ---------------------------*/
 var myCities = [  //NAME AND BOUNDS OF CITIES 
-  {name:"Portland",bnds:[[45.22,-123],[45.7814,-122.197]]},
-  {name:"Seattle", bnds:[[47.366,-122.7],[47.9,-121.88]]},
-  {name:"Vancouver",bnds:[[49.023,-123.709],[49.461,-122.4351]]}
+  {name:"Portland",bnds:[[43.656,-70.327],[43.732,-70.222]]}
 ]
-,tblName = "pnw_table_new" // cartoDB table name
-,usrName = "nicholasm" // your cartoDB username
-,brandText = "extPNW" // top left text and link on site
-,brandLink = "http://extentpnw.com" //top left link on site
-,giturl = "https://github.com/enam" //Only change this if you want to link to a fork you made, otherwise you can leave the link to the original repo
-,twiturl = "https://twitter.com/nichom" //Links to my twit acct, change it if you want or remove twitter link altogether
-,myPath = "http://nicholasm.cartodb.com/api/v2"; //this is the root path to your cartoDB instance with the v2 api param
+,tblName = "Portland neighborhoods" // cartoDB table name
+,usrName = "cmilneil" // your cartoDB username
+,brandText = "Portland neighborhoods" // top left text and link on site
+,brandLink = "http://pressherald.com" //top left link on site
+,giturl = "https://github.com/vigorousnorth" //Only change this if you want to link to a fork you made, otherwise you can leave the link to the original repo
+,twiturl = "https://twitter.com/vigorousnorth" //Links to my twit acct, change it if you want or remove twitter link altogether
+,myPath = "http://cmilneil.cartodb.com/api/v2"; //this is the root path to your cartoDB instance with the v2 api param
 /*--------------------------
 -----Other things to change
 ------in /php/callProxy, change the path to your hidden api key.
